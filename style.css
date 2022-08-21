@@ -1,0 +1,1056 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: "byekan";
+    src: url("fonts/BYekan-/BYekan/BYekan+.ttf");
+}
+
+@font-face {
+    font-family: "byekan_Bold";
+    src: url("fonts/BYekan-/BYekan/BYekan+\ Bold.ttf");
+}
+
+@font-face {
+    font-family: "vazir_matn";
+    src: url("vazirmatn-master/vazirmatn-master/fonts/ttf/Vazirmatn-Medium.ttf");
+}
+
+@font-face {
+    font-family: "byekan___Persian";
+    src: url(fonts/fontsIran/500.Font.Collection/BYekan.ttf);
+}
+
+html {
+    user-select: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #ededed;
+    font-family: "byekan";
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+.container {
+    background-color: #ededed;
+}
+
+.Autboard {
+    width: 50%;
+    height: 937px;
+    position: absolute;
+}
+
+.image--image {
+    width: 211px;
+    height: 174px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.logo {
+    text-align: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 31rem;
+    float: left;
+}
+
+.Time {
+    font-size: 1rem;
+    font-weight: 400;
+    float: right;
+    position: absolute;
+    padding-top: 24px;
+    padding-right: 5.5rem;
+    color: #494949;
+}
+
+.Timer {
+    color: rgb(15, 15, 15);
+    font-family: "byekan___Persian";
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.Guide {
+    float: left;
+    padding-top: 8rem;
+    color: #4a99f5;
+}
+
+.Guide:hover {
+    color: #0660c7;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.logoImage {
+    align-items: center;
+}
+
+.logoTitle {
+    align-items: center;
+}
+
+.header {
+    width: 100vw;
+    height: 15vh;
+}
+
+.login {
+    position: absolute;
+    width: 290px;
+    height: 200px;
+    margin-right: 5rem;
+}
+
+.loginText {
+    color: #454343;
+    font-family: "byekan";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.loginBox {
+    margin-top: 1.1rem;
+    border: 1px solid #bebcbc;
+    padding: 1rem;
+    width: 290px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #dcdcdc;
+}
+
+.boxTitle--login--username {
+    font-size: 16px;
+    color: 636363;
+}
+
+.login--username:focus {
+    overflow: none;
+    outline: none;
+    border: 2px solid #3cc6f2;
+    border-color: #3cc6f2;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+    font-family: "byekan";
+    font-weight: 400;
+    color: #3daa69;
+    font-size: 20px;
+}
+
+.login--password:focus {
+    overflow: none;
+    outline: none;
+    text-align: center;
+    border: 2px solid #3cc6f2;
+    border-color: #3cc6f2;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+    font-family: "byekan";
+    font-weight: 400;
+    color: #3daa69;
+    font-size: 20px;
+}
+
+.login--username:active {
+    overflow: none;
+    outline: none;
+    border: 2px solid #3cc6f2;
+    border-color: #3cc6f2;
+    text-align: center;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+    font-family: "byekan";
+    font-weight: 400;
+}
+
+.login--password:active {
+    outline: none;
+    text-align: center;
+    border: 2px solid #3cc6f2;
+    border-color: #3cc6f2;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+    font-family: "byekan";
+    font-weight: 400;
+}
+
+.boxTitle--login--password {
+    font-size: 16px;
+    color: #636363;
+}
+
+.span--login {
+    color: red;
+    margin-top: 0.4rem;
+    font-size: 1.1rem;
+}
+
+.login--username {
+    width: 148px;
+    height: 33px;
+    margin-right: 18px;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "byekan";
+    font-size: 14px;
+    font-weight: 400;
+    color: #adadad;
+}
+
+.login--password {
+    width: 148px;
+    height: 33px;
+    margin-right: 35px;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "byekan";
+    font-size: 14px;
+    font-weight: 400;
+    color: #adadad;
+}
+
+.password {
+    margin-top: 1.5rem;
+}
+
+#btn--login--bankist {
+    width: 229px;
+    height: 39px;
+    font-family: "byekan";
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #18ad6f;
+    color: white;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 31px;
+    margin-right: 9px;
+    border: 1px solid transparent;
+    border-color: #18ad6f;
+    padding-bottom: 0.4rem;
+}
+
+#btn--login--bankist:hover {
+    cursor: pointer;
+    background-color: #127f52;
+    transition: 0.4s ease-out;
+}
+
+.ErrorBox {
+    margin-top: 15.4rem;
+    margin-right: 5.3rem;
+    background-color: #b30101;
+    color: white;
+    font-family: "byekan";
+    font-size: 18px;
+    width: 280px;
+    height: 48px;
+    border-radius: 10px;
+    border-radius: 9px;
+    box-shadow: rgba(217, 10, 10, 0.379);
+    backdrop-filter: blur(4px);
+    z-index: 5;
+    position: absolute;
+}
+
+.textError {
+    text-align: center;
+    padding-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.overlay {
+    backdrop-filter: blur(4px);
+    z-index: 5;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #127f52;
+}
+
+.hidden {
+    display: none;
+}
+
+.Shape {
+    width: 1000px;
+    height: 546px;
+    margin-top: 10rem;
+    background-color: #818181;
+    border-radius: 50%;
+    position: absolute;
+    margin-right: 33rem;
+    opacity: 100;
+}
+
+.Img---imag {
+    width: 1000px;
+    height: 546px;
+    float: left;
+    border-radius: 50%;
+}
+
+.close___guideBox {
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-color: #f84747;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 0.2rem;
+    color: #ffffff;
+    font-family: "byekan";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.close___guideBox:hover {
+    cursor: pointer;
+    background-color: #b10808;
+    transition: 0.5s ease-in-out;
+}
+
+.guide___guideBox {
+    color: white;
+    width: 614px;
+    height: 434px;
+    background-image: linear-gradient(45deg, black, rgb(79, 78, 78));
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 6rem;
+    padding: 1.3rem;
+    margin-right: 39rem;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #454343;
+    backdrop-filter: blur(4px);
+    z-index: 10;
+    transition: 1s ease;
+    /* box-shadow: 2px 2px 2px 5px rgba(27, 27, 27, 0.4) inset; */
+}
+
+.title___guideBox {
+    font-size: 22px;
+    font-family: "byekan";
+    font-weight: 500;
+    color: #e4e4e4;
+    padding-right: 3rem;
+}
+
+.text___guideBox {
+    margin-top: 39px;
+    margin-right: 48px;
+    font-family: "byekan";
+    font-weight: 400;
+    font-family: 14px;
+}
+
+.table___guideBox {
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "byekan";
+    font-weight: 500;
+    width: 286px;
+    height: 225px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-right: 8.6rem;
+    text-align: center;
+}
+
+td {
+    border: 1px solid rgb(141, 141, 141);
+}
+
+th {
+    background-color: #93afc3;
+}
+
+.overlay___guideBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(3px);
+    z-index: 5;
+}
+
+.hidden___guideBox {
+    display: none;
+}
+
+.time___ToLeft {
+    width: 633px;
+    height: 144px;
+    background-color: #f91212;
+    align-items: center;
+    text-align: center;
+    margin-right: 56rem;
+    margin-top: 37rem;
+    color: #ffffff;
+    padding-top: 6.4rem;
+    /* position: absolute; */
+    border-radius: 50%;
+}
+
+.time___ToLeft---text {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+.time___Toleft---time {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "vazir_matn";
+    font-weight: 500;
+}
+
+.box__red {
+    width: 753px;
+    height: 603px;
+    margin-right: 52.1rem;
+    margin-top: 3.7rem;
+    background-color: #fc5858;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 0 2px 40px rgba(0, 0, 0, 0.4);
+}
+
+.box__white {
+    width: 753px;
+    height: 603px;
+    top: 1rem;
+    left: 8px;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+    position: absolute;
+    box-shadow: 5px 25px 40px rgba(0, 0, 0, 0.4);
+}
+
+.operation___Title {
+    width: 7rem;
+    height: 3rem;
+    padding-top: 18px;
+    padding-right: 23px;
+    font-family: byekan;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+/* border: 2px double black;
+} */
+
+
+/*
+transfer
+*/
+
+.operation___transferMoney {
+    width: 295px;
+    height: 165px;
+    border: 2px solid #10be8a;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-right: 24px;
+    background-color: #ffffff;
+}
+
+.operation___transferMoney---title {
+    text-align: center;
+    font-size: 20px;
+    font-family: byekan;
+    font-weight: 500;
+    color: #2ac295;
+}
+
+.operation___transferMoney---amountTitle {
+    padding-right: 26px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-family: byekan;
+    font-weight: 500;
+    color: #636363;
+}
+
+.operation___transferMoney---personTitle {
+    padding-right: 26px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: byekan;
+    font-weight: 500;
+    color: #636363;
+}
+
+.operation___transferMoney---amount {
+    width: 148px;
+    height: 33px;
+    margin-right: 18px;
+    border: 1px solid transparent;
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "vazir_matn";
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #ececec;
+    color: #aba9a9;
+}
+
+.operation___transferMoney---amount::placeholder {
+    color: #818181;
+    font-family: "vazir_matn";
+}
+
+.operation___transferMoney---amount:focus {
+    outline: none;
+    text-align: center;
+    border: 2px solid #3cc6f2;
+    border-color: #3cc6f2;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3daa69;
+    font-family: "vazir_matn";
+}
+
+.operation___transferMoney---person:focus {
+    outline: none;
+    text-align: center;
+    border: 2px solid #3cc6f2;
+    border-color: #3cc6f2;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+    font-family: "vazir_matn";
+    font-weight: 400;
+    color: #3daa69;
+}
+
+.operation___transferMoney---person {
+    width: 148px;
+    height: 33px;
+    border: 1px solid transparent;
+    border-color: transparent;
+    background-color: #ececec;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "byekan";
+    font-size: 14px;
+    font-weight: 400;
+    color: #adadad;
+    margin-right: 1.5rem;
+}
+
+.operation___transferMoney---button {
+    width: 275px;
+    height: 33px;
+    background-color: #18ad6f;
+    font-family: vazir_matn;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    color: white;
+    margin-top: 0.7rem;
+    margin-right: 0.4rem;
+    text-align: center;
+    align-items: center;
+}
+
+.operation___transferMoney---buttonIcon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    margin-top: 0.4rem;
+}
+
+.operation___transferMoney---button:hover {
+    background-color: #0a7253ee;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+
+/*
+request
+*/
+
+.operation___requestMoney {
+    width: 295px;
+    height: 165px;
+    border: 2px solid #f4b71a;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-right: 24px;
+    background-color: #ffffff;
+}
+
+.operation___requestMoney---title {
+    text-align: center;
+    font-size: 20px;
+    font-family: byekan;
+    font-weight: 500;
+    color: #f4b71a;
+}
+
+.operation___requestMoney---amountTitle {
+    padding-right: 26px;
+    padding-top: 15px;
+    font-size: 14px;
+    font-family: byekan;
+    font-weight: 500;
+    color: #636363;
+}
+
+.operation___requestMoney---personTitle {
+    padding-right: 26px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: byekan;
+    font-weight: 500;
+    color: #636363;
+}
+
+.operation___requestMoney---amount {
+    width: 148px;
+    height: 33px;
+    margin-right: 18px;
+    border: 1px solid transparent;
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "vazir_matn";
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #ececec;
+    color: #aba9a9;
+}
+
+.operation___requestMoney---amount::placeholder {
+    color: #818181;
+    font-family: "vazir_matn";
+}
+
+.operation___requestMoney---amount:focus {
+    outline: none;
+    text-align: center;
+    border: 2px solid #3cc6f2;
+    border-color: #3cc6f2;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3daa69;
+    font-family: "vazir_matn";
+}
+
+.operation___requestMoney---person:focus {
+    outline: none;
+    text-align: center;
+    border: 2px solid #3cc6f2;
+    border-color: #3cc6f2;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+    font-family: "vazir_matn";
+    font-weight: 400;
+    color: #3daa69;
+}
+
+.operation___requestMoney---person {
+    width: 148px;
+    height: 33px;
+    border: 1px solid transparent;
+    border-color: transparent;
+    background-color: #ececec;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "byekan";
+    font-size: 14px;
+    font-weight: 400;
+    color: #adadad;
+    margin-right: 1.5rem;
+}
+
+.operation___requestMoney---button {
+    width: 275px;
+    height: 33px;
+    background-color: #f4b71a;
+    font-family: vazir_matn;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    color: white;
+    margin-top: 3rem;
+    margin-right: 0.4rem;
+    text-align: center;
+    align-items: center;
+}
+
+.operation___requestMoney---buttonIcon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    margin-top: 0.4rem;
+}
+
+.operation___requestMoney---button:hover {
+    background-color: #d39a0b;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+
+/*exit*/
+
+.operation___exitMoney {
+    width: 295px;
+    height: 165px;
+    border: 2px solid #f01111;
+    border-radius: 10px;
+    margin-top: 14px;
+    margin-right: 24px;
+    background-color: #ffffff;
+}
+
+.operation___exitMoney---title {
+    text-align: center;
+    font-size: 20px;
+    font-family: byekan;
+    font-weight: 500;
+    color: #f01111;
+}
+
+.operation___exitMoney---usernameConfirmTitle {
+    padding-right: 26px;
+    padding-top: 15px;
+    font-size: 16px;
+    font-family: byekan;
+    font-weight: 500;
+    color: #636363;
+}
+
+.operation___exitMoney---passwrodConfirmTitle {
+    padding-right: 26px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: byekan;
+    font-weight: 500;
+    color: #636363;
+}
+
+.operation___exitMoney---usernameConfirm {
+    width: 148px;
+    height: 33px;
+    margin-right: 18px;
+    border: 1px solid transparent;
+    border-color: transparent;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "vazir_matn";
+    font-size: 14px;
+    font-weight: 400;
+    background-color: #ececec;
+    color: #aba9a9;
+}
+
+.operation___exitMoney---usernameConfirm::placeholder {
+    color: #818181;
+    font-family: "vazir_matn";
+}
+
+.operation___exitMoney---usernameConfirm:focus {
+    outline: none;
+    text-align: center;
+    border: 2px solid #3cc6f2;
+    border-color: #3cc6f2;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+    font-weight: 400;
+    color: #3daa69;
+    font-family: "vazir_matn";
+}
+
+.operation___exitMoney---passwordConfirm:focus {
+    outline: none;
+    text-align: center;
+    border: 2px solid #3cc6f2;
+    border-color: #3cc6f2;
+    transition: 0.2s ease-in-out;
+    font-size: 16px;
+    font-family: "vazir_matn";
+    font-weight: 400;
+    color: #3daa69;
+}
+
+.operation___exitMoney---passwordConfirm {
+    width: 148px;
+    height: 33px;
+    border: 1px solid transparent;
+    border-color: transparent;
+    background-color: #ececec;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "byekan";
+    font-size: 14px;
+    font-weight: 400;
+    color: #adadad;
+    margin-right: 1.8rem;
+}
+
+.operation___exitMoney---buttonConfirmExit {
+    width: 275px;
+    height: 33px;
+    background-color: #f01111;
+    font-family: vazir_matn;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    color: white;
+    margin-top: 0.7rem;
+    margin-right: 0.4rem;
+    text-align: center;
+    align-items: center;
+}
+
+.operation___exitMoney---buttonIcon {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+    margin-top: 0.4rem;
+}
+
+.operation___exitMoney---buttonConfirmExit:hover {
+    background-color: #910808;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+
+.rightBox {
+    width: 30%;
+    float: right;
+    height: 90%;
+}
+
+.leftBox {
+    width: 402px;
+    height: 523px;
+    background-color: #ffffff;
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    float: left;
+    border-radius: 10px;
+    border: 2px solid #d7d6d6;
+}
+
+.leftBox___box1 {
+    width: 376px;
+    height: 98px;
+    background-color: #ececec;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 0.7rem;
+    margin-top: 0.6rem;
+    border-radius: 10px;
+}
+
+.leftBox___box1---title {
+    color: black;
+    font-family: "byekan";
+    font-weight: 500;
+    text-align: center;
+    padding-right: 0.3rem;
+    font-size: 18px;
+    padding-top: 0.4rem;
+}
+
+.leftBox___box1---moneyExist {
+    padding-top: 2rem;
+    float: right;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "vazir_matn";
+    color: #737272;
+    font-size: 15px;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.leftBox___box1---amountMoneyExist {
+    padding-top: 2rem;
+    float: left;
+    font-weight: 500;
+    font-family: "vazir_matn";
+    color: #737272;
+    font-size: 15px;
+    text-align: right;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.leftBox___box1---moneyAmount {
+    font-size: 22px;
+    font-family: "byekan___Persian";
+    font-style: bold;
+    color: rgb(0, 0, 0);
+    padding-bottom: 1rem;
+}
+
+
+/* Box2 */
+
+.leftBox___box2 {
+    width: 376px;
+    height: 392px;
+    background-color: #ececec;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    margin-right: 0.7rem;
+    margin-top: 0.1rem;
+    border-radius: 10px;
+    overflow: scroll;
+    grid-row: 2 / span 3;
+}
+
+.Account___operation {
+    transition: 2s ease-in-out;
+    position: absolute;
+}
+
+.hiddenAccountOperation {
+    transition: 2s ease-in-out;
+    display: none;
+}
+
+.movements {
+    grid-row: 2 / span 3;
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: scroll;
+}
+
+.movements__row {
+    width: 100%;
+    margin-top: 0.7rem;
+    border-bottom: 1px solid #bfb9b9;
+}
+
+.movements__type {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "byekan___Persian";
+    color: rgb(43, 43, 43);
+    border-radius: 10rem;
+    margin-right: 2rem;
+}
+
+.movements__date {
+    font-size: 0.9rem;
+    padding-right: 1rem;
+    padding-top: 0.4rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #666;
+}
+
+.movements__type--سپرده {
+    float: left;
+    margin-top: 0.8rem;
+    width: 5rem;
+    color: white;
+    height: 2rem;
+    font-family: "byekan___Persian";
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: #18ad6f;
+    margin-left: 1rem;
+}
+
+.movements__type--برداشت {
+    background-color: #f01111;
+    width: 5rem;
+    float: left;
+    color: white;
+    height: 2rem;
+    border-radius: 10px;
+    margin-top: 0.8rem;
+    padding: 5px;
+    padding-bottom: 1rem;
+    font-family: "byekan___Persian";
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.movements__value {
+    width: 50%;
+    height: auto;
+    border: 2px solid transparent;
+    font-size: 1.2rem;
+    margin-left: auto;
+    padding-right: 1rem;
+    font-family: "byekan___Persian";
+    padding-top: 0.1rem;
+}
+
+.back___Button {
+    width: 5rem;
+    height: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    font-family: "vazir_matn";
+    font-size: 17px;
+    font-weight: 500;
+    position: absolute;
+    margin-right: 51.4rem;
+}
+
+.back___Button:hover {
+    background-color: rgb(211, 6, 6);
+    cursor: pointer;
+    transition: 0.7s ease;
+}
+
+.back___Button---hidden {
+    display: none;
+}
+
+.time___Toleft---minutes {
+    font-family: "";
+}
+
+.text___Guide___Warning {
+    color: #f79707;
+}

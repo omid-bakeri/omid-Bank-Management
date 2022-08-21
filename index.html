@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icons/icons8-user-manual-48.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Omid Bank management</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Triangle">
+            <img class="Autboard" src="Artboard_1-removebg-preview.png" alt="عکس" />
+        </div>
+        <div class="container">
+            <div class="header">
+                <nav>
+                    <div class="image">
+                        <img class="image--image" src="Bankist/images/nody-نمونه-عکس-پرچم-ایران-1635886102-removebg-preview.png" alt="" />
+                    </div>
+                    <div class="Guide">مشاهده راهنمای سامانه</div>
+                    <div class="logo">
+                        <img class="logoImage" src="icons/icons8-manage-60.png" alt="لوگوی سامانه امید" />
+                        <p class="logoTitle">سامانه هوشمند مدیریت بانکی امید</p>
+                    </div>
+                    <div class="Time">
+                        ساعت ورود به سامانه: <span class="Timer">00:00:00</span>
+                    </div>
+                </nav>
+            </div>
+            <div class="login hiddenLoginBox">
+                <div class="loginText">لطفا وارد حساب کاربری خود شوید.</div>
+                <div class="loginBox">
+                    <div class="username">
+                        <div class="boxTitle--login--username">
+                            نام کاربری <span class="span--login">*</span>
+                            <input class="login--username" type="text" placeholder="" />
+                        </div>
+                    </div>
+                    <div class="password">
+                        <div class="boxTitle--login--password">
+                            گذرواژه<span class="span--login">*</span>
+                            <input class="login--password" type="password" placeholder="" />
+                        </div>
+                    </div>
+                    <div class="login--btn">
+                        <button id="btn--login--bankist">ورود</button>
+                    </div>
+                </div>
+            </div>
+            <div class="ErrorBox hidden">
+                <p class="textError">کاربری با این مشخصات وجود ندارد.</p>
+            </div>
+            <div class="overlay hidden"></div>
+        </div>
+        <div class="Shape hiddenShape">
+            <img class="Img---imag" src="Bankist/images/620e4b3d823b7101f0fa7d50_The_Beginning_of_It_All__Social_Circumstances_that_Created_Employee_Monitoring_Software_-_main__1_-removebg-preview.png" alt="" />
+        </div>
+        <div class="guide___guideBox hidden___guideBox">
+            <div class="header___guideBox">
+                <div class="close___guideBox">x</div>
+                <div class="title___guideBox">راهنمای سامانه مدیریت بانکی امید</div>
+            </div>
+            <div class="text___guideBox">
+                با توجه به این که این سامانه پایگاه داده ندارد که شما وارد حساب کاربری واقعی خود شوید بنابراین می توانید برای استفاده از سامانه از حساب های زیر استفاده نمایید .
+                <span class="text___Guide___Warning">برای نام کاربری لطفا حرف اول هر کدام را به صورت کوچک بنویسید مثلا
+            برای Ali Dashti به صورت ad بنویسید.
+          </span>
+            </div>
+            <div>
+                <table class="table___guideBox">
+                    <tr>
+                        <th>نام کاربری</th>
+                        <th>گذرواژه</th>
+                    </tr>
+                    <tr>
+                        <td>Ali Dashti</td>
+                        <td>1455855</td>
+                    </tr>
+                    <tr>
+                        <td>Mohammad Tayebi</td>
+                        <td>52145</td>
+                    </tr>
+                    <tr>
+                        <td>Reza Tehrani</td>
+                        <td>84745</td>
+                    </tr>
+                    <tr>
+                        <td>Sarah Ali Poor</td>
+                        <td>145879586</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="overlay___guideBox hidden___guideBox"></div>
+        <div class="Account___operation hiddenAccountOperation" id="Account___operation---Box">
+            <div class="box__red">
+                <div class="box__white">
+                    <div class="operation___Title">عملیات ها</div>
+
+                    <div class="rightBox">
+                        <div class="operation___transferMoney">
+                            <div class="operation___transferMoney---title">انتقال پول</div>
+                            <div class="operation___transferMoney---amountTitle">
+                                رقم انتقال
+                                <input class="operation___transferMoney---amount" type="text" placeholder="تومان" />
+                            </div>
+                            <div class="operation___transferMoney---personTitle">
+                                انتقال به
+                                <input class="operation___transferMoney---person" type="text" placeholder="" />
+                            </div>
+                            <div class="button">
+                                <button class="operation___transferMoney---button">
+                    انتقال
+                    <img
+                      class="operation___transferMoney---buttonIcon"
+                      src="icons/icons8-email-send-40.png"
+                      alt=""
+                    />
+                  </button>
+                            </div>
+                        </div>
+
+                        <div class="operation___requestMoney">
+                            <div class="operation___requestMoney---title">درخواست پول</div>
+                            <div class="operation___requestMoney---amountTitle">
+                                رقم درخواست
+                                <input class="operation___requestMoney---amount" type="text" placeholder="تومان" />
+                            </div>
+                            <!-- <div class="operation___requestMoney---personTitle">
+                        انتقال به
+                        <input class="operation___requestMoney---person" type="text" placeholder="" />
+                    </div> -->
+                            <div class="button">
+                                <button class="operation___requestMoney---button">
+                    درخواست
+                    <img
+                      class="operation___requestMoney---buttonIcon"
+                      src="icons/icons8-pull-request-30.png"
+                      alt=""
+                    />
+                  </button>
+                            </div>
+                        </div>
+
+                        <div class="operation___exitAccount___Money">
+                            <div class="operation___exitMoney">
+                                <div class="operation___exitMoney---title">خروج از حساب</div>
+                                <div class="operation___exitMoney---usernameConfirmTitle">
+                                    نام کاربری
+                                    <input class="operation___exitMoney---usernameConfirm" type="text" />
+                                </div>
+                                <div class="operation___exitMoney---passwrodConfirmTitle">
+                                    گذر واژه
+                                    <input class="operation___exitMoney---passwordConfirm" type="password" placeholder="" />
+                                </div>
+                                <div class="button">
+                                    <button class="operation___exitMoney---buttonConfirmExit">
+                      خروج
+                      <img
+                        class="operation___exitMoney---buttonIcon"
+                        src="icons/icons8-exit-30.png"
+                        alt=""
+                      />
+                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- leftBox -->
+
+                    <div class="leftBox">
+                        <div class="leftBox___box1">
+                            <div class="leftBox___box1---title">
+                                به سامانه هوشمند مدیریت بانکی امید خوش آمدید.
+                            </div>
+                            <div class="leftBox___box1---moneyExist">موجودی حساب شما:</div>
+                            <div class="leftBox___box1---amountMoneyExist">
+                                <span class="leftBox___box1---moneyAmount">0 </span>تومان
+                            </div>
+                        </div>
+                        <div class="leftBox___box2">
+                            <div class="movements__row">
+                                <div class="movements__type movements__type--سپرده">
+                                    سپرده
+                                </div>
+                                <div class="movements__date">3 روز قبل</div>
+                                <div class="movements__value">20000 تومان</div>
+                            </div>
+                            <div class="movements__row">
+                                <div class="movements__type movements__type--برداشت">
+                                    برداشت
+                                </div>
+                                <div class="movements__date">3 روز قبل</div>
+                                <div class="movements__value">150000 تومان</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="time___ToLeft">
+                <p class="time___ToLeft---text"></p>
+            </div>
+        </div>
+        <button class="back___Button back___Button---hidden">برگشت</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
